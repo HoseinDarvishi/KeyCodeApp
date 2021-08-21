@@ -1,0 +1,46 @@
+
+*{
+  text-align: center;
+  font-family: Fira Code;
+}
+body{
+  background-color: rgb(197, 197, 197);
+  width: 100vw;
+}
+.row{
+  bottom: 0;
+}
+.keyCode-container{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 200px;
+  color: rgb(48, 48, 48);
+  transition: 1s;
+}
+.header-text{
+  font-family: cursive;
+}
+.keyCode-container:hover{
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.815) , -5px -5px 10px rgba(0, 0, 0, 0.445) ;
+  cursor: default;
+}
+.events-container{
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.473);
+  transition: all .7s;
+}
+.events-container:hover{
+  cursor: default;
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.473);
+
+}
+.name-field{
+  background-color: skyblue;
+}
+.value-field{
+  min-height: 65px;
+  font-weight: 800;
+  font-size: 22px;
+  background-color: white;
+}
